@@ -24,8 +24,8 @@ defmodule HTTPotion.Mixfile do
   end
 
   defp deps do
-    [ {:ibrowse, "~> 4.4"},
-      {:ex_doc, "~> 0.14", only: [:dev, :test, :docs]} ]
+    [ {:ibrowse, "~> 4.2"},
+      {:ex_doc, "~> 0.12", only: [:dev, :test, :docs]} ]
   end
 
   defp package do
